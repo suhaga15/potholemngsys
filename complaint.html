@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Register romplaint</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>		
+		<div class="main">
+			<div class="row1">
+				<p class="welcome"> Register your complaint </p>
+				<img src="logo.jpg"/>
+			</div>
+			<div class="row2">
+				<div class="row2col1">
+					Navigation
+					<hr align="left" width=75%>						
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="pothole.html">View potholes</a></li>
+							<li><a href="status.html">Complaint status</a></li>
+						</ul>
+				</div>
+				<div class="row2col2">
+				<p class="content" >Enter details to submit complaint and note down the associated complaint ID for checking status of your complaint in the future.<br>
+				Mention how bad the pothole is on a scale of 1 to 5 in the condition field</p>
+				<form>
+					<b id="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+					<input type="text" id="nameCheck" />
+					
+					<br><br><b id="aadhar">Aadhar number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+					<input type="integer" id="aadcheck" />
+					
+					<br><br><b id="street">Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+					<input type="text" id="strcheck" />
+					
+					<br><br><b id="condition">Condition(1-5):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+					<input type="text" id="strcheck" />
+					
+					<br><br><input type="button" value="Submit" onClick="clicked()" />
+				</form>
+				</div>
+			</div>
+
+		</div>
+		
+	</body>
+</html>
